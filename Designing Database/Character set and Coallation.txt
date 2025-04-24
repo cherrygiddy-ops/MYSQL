@@ -1,0 +1,8 @@
+->Character set is a table that maps each character to a numeric representation while Collation defines rules that determines how character in a given language are sorted
+
+
+MySQL allocateds 1 byte for English and international laters
+                 2 bytes for Europeans Countries
+                 3 bytes for Asians Countries
+
+-.Storage Engine ->Determines How Data is Stored and What Features are Available to us

@@ -1,0 +1,32 @@
+Its a process of creating a model for the data we want  to store in the database
+
+        Name four steps of data Modelling
+1.understanding the requirement i.e talking to end users,dormain experts,looking at existing forms ,applications even database
+2.building a conceptual model ->involve identifying entities or conceps in business and their relationship with each other->also its a visual representation that we uses to communicate  with stakeholders so that we know we are on the same page
+3.build a logical model ->data structure for storing data ,abstract data model that's independence of db technonlogy its shows tables and columns we need .
+4.build a physical model->refine logical model to build a physical model,implement a logical model specific to db technology i.e exact data type,default values for columns,views stored procedures and functions
+
+           how to demonstrate entities
+1.entity relationship
+2.uml diagram
+          relationship of entities
+1.one to one
+2.one to many
+3.many to many
+        
+              Normalization
+->a process of reviewing our design to make sure that it follows predesign rules to prevent data duplication
+        
+           They are  7 normal Form
+1.1ST Normal Form -> each cell should have a Single value and we can not have repeated columns
+
+N/B -> In relational database we don't have many to many relationship we have only 1.one to one relationship
+and 2.one to many relationship
+
+2.2END NORMAL Form ->to qualify for second Normal Form a relation must
+1.be in first Normal form 
+2.Every table should describe one entity and every column in that table should describe that entity
+
+3.3RD NORMAL FORM 
+  ->The entity is in the second normal form
+  ->a column in a table should not be derived from other columns since it will lead to data inconsistency  and data duplication
