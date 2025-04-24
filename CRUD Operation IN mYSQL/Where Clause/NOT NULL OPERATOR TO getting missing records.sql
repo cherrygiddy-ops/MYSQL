@@ -1,0 +1,1 @@
+select * from customers where phone is not null;

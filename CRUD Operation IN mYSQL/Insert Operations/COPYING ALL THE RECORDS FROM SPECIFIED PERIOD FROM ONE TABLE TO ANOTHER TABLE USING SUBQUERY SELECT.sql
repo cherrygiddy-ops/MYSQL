@@ -1,0 +1,1 @@
+insert into orders_archived SELECT * FROM orders where order_date < '2019-01-01' 
