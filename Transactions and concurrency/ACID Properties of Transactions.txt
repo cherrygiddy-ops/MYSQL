@@ -1,0 +1,4 @@
+1.Atomicity -> A transactions is like Atoms they are unbreakable each transaction is  a single unit of work no matter how many statements it contains 
+2.Consistency -> With this transactions our database will always remain in consistent state
+3.Isolation ->This transactions is isolated from each other if they try to modify same data
+4.Durability -> ounce transaction is completed the change made by that transaction is permanent
