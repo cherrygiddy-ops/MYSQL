@@ -1,0 +1,5 @@
+DATE
+TIME
+DATETIME ->8 bytes (goes beyond 2038) used most of the time to show when rows was updated
+TIMESTAMP ->4 bytes (goes upto 2038)
+YEAR

@@ -1,0 +1,1 @@
+JSON ->Lightweight Format for storing and transferring data over the internet

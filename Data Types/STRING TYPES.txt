@@ -1,0 +1,10 @@
+CHAR(X) ->Fixed length USED to store 2 character values like 'VA'
+VARCHAR(X) ->VARCHAR(50) SHORT STRINGS -> username,gmail,phone numbers
+           ->VARCHAR(255)LONG STRINGS ->Address
+            ->MAX(VARCHAR) ->65535 = 64KB
+MEDIUMTEXT ->MAX16MB
+            ->STORE JSON OBJECTS,MEDIUM TEXT BOOKS
+LONGTEXT  ->MAX 4GB
+           ->TEXTBOOK,YEARS OF LOG FILES
+TINYTEXT ->MAX 255 BYTES
+TEXT     ->MAX 64 KB
