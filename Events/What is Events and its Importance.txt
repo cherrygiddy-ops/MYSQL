@@ -1,0 +1,6 @@
+A task or Block of sql code that get executed according to a schedule 
+ Benefits
+We can use Events to Automate 
+1.Delete Stale Data
+2.Copying Data from one Table into Archived
+3.Aggregate Data To Generate Report

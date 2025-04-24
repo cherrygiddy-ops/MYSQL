@@ -1,0 +1,1 @@
+ALTER EVENT yearly_delete_audit_rows ENABLE/DISABLE
