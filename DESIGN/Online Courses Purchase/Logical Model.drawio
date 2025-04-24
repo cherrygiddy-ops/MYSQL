@@ -1,0 +1,46 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="3rhJw_rylf3Ci2SBbEHJ">
+    <mxGraphModel dx="1428" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sz5jGjdQfbRe5b1aLA0f-1" value="Student" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="100" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sz5jGjdQfbRe5b1aLA0f-2" value="firstName (String)&lt;div&gt;lastName&amp;nbsp; (String)&lt;br&gt;&lt;div&gt;email&amp;nbsp; (String)&lt;/div&gt;&lt;div&gt;dateRegistered (DateTime)&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="sz5jGjdQfbRe5b1aLA0f-1" vertex="1">
+          <mxGeometry y="50" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sz5jGjdQfbRe5b1aLA0f-7" value="Entrollment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="360" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sz5jGjdQfbRe5b1aLA0f-8" value="date (DateTime)&lt;div&gt;price(float)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="sz5jGjdQfbRe5b1aLA0f-7" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sz5jGjdQfbRe5b1aLA0f-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sz5jGjdQfbRe5b1aLA0f-2" target="sz5jGjdQfbRe5b1aLA0f-8" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="220" y="430" as="sourcePoint" />
+            <mxPoint x="320" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sz5jGjdQfbRe5b1aLA0f-10" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" target="sz5jGjdQfbRe5b1aLA0f-8" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="860" y="252" as="sourcePoint" />
+            <mxPoint x="810" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sz5jGjdQfbRe5b1aLA0f-3" value="Course" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="130" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sz5jGjdQfbRe5b1aLA0f-4" value="&lt;br&gt;&lt;div&gt;Title&amp;nbsp; &amp;nbsp;(String)&lt;/div&gt;&lt;div&gt;price&amp;nbsp; (float)&lt;/div&gt;&lt;div&gt;instructor (String)&lt;/div&gt;&lt;div&gt;tags&amp;nbsp; (String)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="sz5jGjdQfbRe5b1aLA0f-3" vertex="1">
+          <mxGeometry y="50" width="260" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
