@@ -1,0 +1,1 @@
+DELETE FROM invoice_with_balances WHERE INVOICE_ID =1;
