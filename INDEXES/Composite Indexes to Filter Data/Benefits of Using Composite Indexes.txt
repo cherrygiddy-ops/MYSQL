@@ -1,0 +1,11 @@
+->composite index help to optimize our queries efficiently since single column index only does half of the job
+->with composite index we can reduce the size of the database as well as increase writes incase of data modifications
+->we can include up to 4-6 columns when creating composite index
+
+                    
+                            Order of Our Columns
+1.put the most Frequently used column first
+2.put the columns with a higher cardinality first ->has the highest number of unique values
+   (Select count(Distinct state),
+           count(Distinct last name) 
+    from customers) ->getting the number of unique values from a column

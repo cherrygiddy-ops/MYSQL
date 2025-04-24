@@ -1,0 +1,2 @@
+->this are secondary indexes MySQL use this as covering indexes to execute our queries without touching table hence faster performance so
+->when we can include indexed column in where clause,order by clause or even select clause hence we have covering index hence faster performace

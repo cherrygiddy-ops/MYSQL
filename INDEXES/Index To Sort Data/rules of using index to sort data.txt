@@ -1,0 +1,6 @@
+1.dont mix the direction of indexed columns eg order by (state,points desc) this operation will result msql to use filesort algorithm to sort data in the table
+2.do not add non index columns between the indexed columns
+
+
+n/b ->FileSort Algrorithm is an Expensive OPERATION  
+    -> Test the Cost of a Query using (show status like 'last_query_cost')

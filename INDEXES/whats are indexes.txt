@@ -1,0 +1,13 @@
+->they are data structurers that db engine used to find data
+
+advantage-> speed up our queries
+disadvantages ->I) increase the database
+              ->ii)slow down the writes since when we modify our data in tables then this indexes has to be updated
+                   the more indexes we have the slower our writes will be
+
+
+CLUSTERED INDEX ->Creating index based on the primary key
+
+
+
+                          (DISK -> MEMORY)
