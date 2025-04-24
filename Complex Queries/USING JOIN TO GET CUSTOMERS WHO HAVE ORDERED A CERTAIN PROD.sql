@@ -1,0 +1,3 @@
+SELECT  Distinct c.customer_id,c.first_name,c.last_name FROM  orders o inner join customers c using (customer_id) inner join order_items oi using (order_id) where product_id =3
+-- USING JOIN TO GET CUSTOMERS WHO HAVE ORDERED A CERTAIN PROD
+ -- select * from customers where customer_id in (SELECT distinct customer_id from  order_items oi join orders using (order_id) where product_id = 3)::USING SUBQUERY GET CUSTOMERS WHO HAVE ORDERED A CERTAIN PROD

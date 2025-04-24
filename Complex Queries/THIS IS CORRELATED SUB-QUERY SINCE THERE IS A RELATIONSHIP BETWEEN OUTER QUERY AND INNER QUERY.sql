@@ -1,0 +1,2 @@
+select * from employees e where salary >(SELECT  avg(salary) FROM employees where office_id = e.office_id)
+SELECT *FROM invoices I where invoice_total >(select  avg(invoice_total) from invoices where client_id = i.client_id)

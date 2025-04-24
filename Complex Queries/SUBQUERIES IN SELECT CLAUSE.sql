@@ -1,0 +1,2 @@
+SELECT  invoice_id,invoice_total,(select avg(invoice_total) from invoices) as Average,invoice_total- (select Average) as Difference FROM invoices;
+SELECT  c.client_id,c.name as Client_name,(Select sum(invoice_total)   from invoices  where client_id =c.client_id ) as Total_sales,(select avg(invoice_total) from invoices) as Average,(select Total_sales) -(select Average) as Diffrence FROM CLIENTS c
