@@ -1,0 +1,1 @@
+SELECT p.payment_id,p.date,p.amount,c.name,pm.name as Payment_method_name ROM payments p nner join clients c on p.client_id =c.client_id nner join payment_methods pm on p.payment_method = pm.payment_method_id;

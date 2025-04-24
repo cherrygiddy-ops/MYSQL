@@ -1,0 +1,1 @@
+SELECT order_id,orders.customer_id,first_name,last_name FROM orders inner join customers on orders.customer_id= customers.customer_id;
