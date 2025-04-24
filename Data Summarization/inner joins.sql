@@ -1,0 +1,1 @@
+SELECT  p.date,pm.name as payment_method,sum(amount) as Total_payment FROM  payments P INNER JOIN payment_methods pm on p.payment_method =pm.payment_method_id group by p.date ,payment_method order by p.date  

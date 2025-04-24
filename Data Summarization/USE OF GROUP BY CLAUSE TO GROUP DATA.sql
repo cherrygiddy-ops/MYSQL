@@ -1,0 +1,1 @@
+SELECT  c.name as client, 'Grand Total' as 'Date Range' ,client_id,sum(invoice_total) as Total_sales from  invoices  join clients c using (client_id) Where invoice_date between '2019-07-01' and '2019-12-31' group by client_id order by Total_sales desc 
