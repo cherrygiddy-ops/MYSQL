@@ -1,0 +1,1 @@
+create user john identified  by 'password'
